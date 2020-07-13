@@ -1,0 +1,212 @@
+<DOCTYPE html>
+<html>
+     <head>
+     <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=-1">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+     
+      <title></title>
+      
+      <style type="text/css">
+       body
+      {
+      				margin:0;
+      				padding:0;
+      				background:#dcdcdc;
+      				direction:rtl;
+      				
+      			}
+    	img[src="received.png"],[src="download.png"]
+      			{
+      							width:90px;
+      							height:90px;
+      							margin:10px 0 0 0;
+      							float: right;
+      							border:3px solid #c1a5ca;
+      				     border-radius:50px;
+      				    
+      			}
+      			
+      			img[src="download.png"]
+      			{
+      							float:left;
+      						  margin:10px 0 0 0;
+      				}
+      			
+      			.home
+      			{
+      				text-align: center;
+      			  margin:10px 0 0 0;
+      				padding:0;
+      				Font:30px bold;
+      				color:green;				
+      				
+      			}
+      			.p
+      			{
+      							color: blue;
+      							font-weight: ;
+      						 font-size:25px;
+      						 font-style:italic;
+      							
+      			}
+      			
+      			
+      			textarea,input[name="phone"],[name="adress"],[name="age"],[name="name"]
+      			{
+      			     	width:80%;
+      							height:70%;
+      			
+      			
+      			}
+      			input[name="type"]
+      			{
+      						width:15%;
+      						height:30%;	
+      			
+      			}
+      			input[name="date"]
+      			{
+      							width:40%;
+      							height:30%;
+      				
+      			}
+      			
+      			input[name="file"]
+      			{
+      							width:70%;
+      							height:50%;
+      				     margin:20px;
+      				    
+      			}
+      			
+      		  			input, textarea
+      			{
+      							
+      				font-size:14px;
+      			}
+      			table
+      			{
+      							border:2px solid #898989;
+      							margin:0;
+      							padding:0;
+      				    width:100%;
+      				     height:90%;
+      				    
+      			}
+      			td
+      			{
+      					 	 color:#782126;
+      						 Font:30px bold;
+      							border:2px solid #898989;
+      							margin:0;
+      							padding:0;
+      							
+      				}
+      			fieldset
+      
+      {
+      					border:5px solid #ffac46;
+      					
+      		}
+      		legend
+      		{
+      						color: blue;
+      						Font:20px bold;
+      						border:2px solid #ffac46;
+      			}
+      			input[type="submit"],[type="reset"]
+      			{
+      					color:#fff;
+      					background: green;
+      					Font:20px bold;
+      					border:2px solid #ffb9e8;
+      					margin:0 10px;
+      					padding:10px ;
+      			}
+      			input[type="reset"]
+      			{
+          background:#d91431;
+          
+          
+          }
+          
+      </style>
+     </head>
+     
+     <body>
+        <img src="download.png" alt="وزراة الصحة المصرية">
+        <img src="received.png" alt="Habib scan">
+     
+      <div class="home">
+      <p>بسم الله الرحمن الرحيم</p>
+      <p>جمهورية مصر العربية</p>
+      <p>وزارة الصحة المصرية </p>
+      <p class="p">شركة الحبيب سكان للأشعة والخدمات الطبية</p>
+     </div>
+     
+     
+     
+     
+     
+     
+     <form>
+     <fieldset>
+     <legend> بيانات تسجيل المريض </legend>
+        <table>
+        
+           <tr>
+             <td>اسم المريض</td>
+  <td><input type="text" name="name" id="name"></td>
+           </tr>
+           <tr>
+             <td>النوع</td>
+             <td>
+             
+     <input type="radio" name="type" id="type">ذكر
+    <input type="radio" name="type" id="type">انثى
+             </td>
+           </tr>
+           <tr>
+             <td>سن المريض</td>
+  <td><input type="number" name="age" id="age"></td>
+           </tr>
+           <tr>
+             <td>التاريخ</td>
+  <td><input type="date" name="date" id="date"></td>
+           </tr> 
+           <tr>
+             <td>العنوان</td>
+  <td><input type="text" name="adress" id="adress"></td>
+           </tr>
+            <tr>
+             <td>رقم الهاتف</td>
+  <td><input type="number" name="phone" id="phone"></td>
+           </tr> 
+           <tr>
+             <td>شكوى المريض</td>
+<td><textarea name="info" id="info" cols="" rows="5"></textarea></td>
+           </tr>
+           <tr>
+           <td>ملف الاشعة</td>
+  <td><input type="file" name="file" id="file"></td>
+           </tr>
+           <tr>
+   <td><input type="reset" name="clear" id="clear" value="مسح البيانات"></td>
+   
+ <td><input type="submit" name="submit" id="submit" value="حفظ البيانات"></td>
+           
+           </tr>
+        
+        
+        
+        </table>
+     
+     </fieldset>
+     </form>
+     
+     
+     
+     </body>
+     </html>
